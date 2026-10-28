@@ -1,0 +1,5 @@
+function [theta] = snakePose()
+
+
+
+end

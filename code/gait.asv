@@ -1,0 +1,13 @@
+%model the gait of the snake
+f = @(t,x) sin(x + t);
+
+timespan = linspace(0,2*pi,100);
+xspan = linspace(0,1,10);
+figure
+grid on
+for i = timespan
+    fxn_x = @(x) sin(x + i);
+    yspan = fxn_x(xspan);
+    plot(xspan,yspan);
+    pause(1);
+end
