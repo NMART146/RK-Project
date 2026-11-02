@@ -32,7 +32,7 @@ for i = timespan
     plot(virt_chassis_location(1), virt_chassis_location(2), 'm.');
     xlim manual; ylim manual; axis equal;
     xlim([-1 1]);
-    ylim([-1 1]);
+    ylim([-0.6 0.6]);
     pause(0.1);
     clf;
 end

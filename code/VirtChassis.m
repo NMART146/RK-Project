@@ -1,5 +1,4 @@
 function [T] = VirtChassis(joint_locations)
-
     persistent V_last; %found out this keeps a persistant variable between fxn calls
     %constructs the "virtual chassis" as defined by REF1
     geo_center = sum(joint_locations) ./ (length(joint_locations));
