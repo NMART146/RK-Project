@@ -26,7 +26,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -40,7 +40,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
@@ -66,7 +66,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_2.stl" />
+          filename="package://snake_description/meshes/link_2.stl" />
       </geometry>
       <material
         name="">
@@ -80,7 +80,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_2.stl" />
+          filename="package://snake_description/meshes/link_2.stl" />
       </geometry>
     </collision>
   </link>
@@ -124,7 +124,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_3.stl" />
+          filename="package://snake_description/meshes/link_3.stl" />
       </geometry>
       <material
         name="">
@@ -138,7 +138,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_3.stl" />
+          filename="package://snake_description/meshes/link_3.stl" />
       </geometry>
     </collision>
   </link>
@@ -177,7 +177,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_4.stl" />
+          filename="package://snake_description/meshes/link_4.stl" />
       </geometry>
       <material
         name="">
@@ -191,7 +191,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_4.stl" />
+          filename="package://snake_description/meshes/link_4.stl" />
       </geometry>
     </collision>
   </link>
@@ -230,7 +230,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_5.stl" />
+          filename="package://snake_description/meshes/link_5.stl" />
       </geometry>
       <material
         name="">
@@ -244,7 +244,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_5.stl" />
+          filename="package://snake_description/meshes/link_5.stl" />
       </geometry>
     </collision>
   </link>
@@ -283,7 +283,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_6.stl" />
+          filename="package://snake_description/meshes/link_6.stl" />
       </geometry>
       <material
         name="">
@@ -297,7 +297,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_6.stl" />
+          filename="package://snake_description/meshes/link_6.stl" />
       </geometry>
     </collision>
   </link>
@@ -336,7 +336,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_7.stl" />
+          filename="package://snake_description/meshes/link_7.stl" />
       </geometry>
       <material
         name="">
@@ -350,7 +350,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_7.stl" />
+          filename="package://snake_description/meshes/link_7.stl" />
       </geometry>
     </collision>
   </link>
@@ -389,7 +389,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_8.stl" />
+          filename="package://snake_description/meshes/link_8.stl" />
       </geometry>
       <material
         name="">
@@ -403,7 +403,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_8.stl" />
+          filename="package://snake_description/meshes/link_8.stl" />
       </geometry>
     </collision>
   </link>
@@ -442,7 +442,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_9.stl" />
+          filename="package://snake_description/meshes/link_9.stl" />
       </geometry>
       <material
         name="">
@@ -456,7 +456,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_9.stl" />
+          filename="package://snake_description/meshes/link_9.stl" />
       </geometry>
     </collision>
   </link>
@@ -495,7 +495,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_10.stl" />
+          filename="package://snake_description/meshes/link_10.stl" />
       </geometry>
       <material
         name="">
@@ -509,7 +509,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          stlfilename="package://snake_description/meshes/link_10.stl" />
+          filename="package://snake_description/meshes/link_10.stl" />
       </geometry>
     </collision>
   </link>
