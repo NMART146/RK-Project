@@ -8,7 +8,7 @@
     name="link_1">
     <inertial>
       <origin
-        xyz="0.05 0 0"
+        xyz="-0.05 0 0"
         rpy="0 0 0" />
       <mass
         value="0.1415" />
@@ -17,7 +17,7 @@
         ixy="-7.9211E-21"
         ixz="8.2718E-23"
         iyy="0.00017707"
-        iyz="2.1248E-39"
+        iyz="1.1479E-39"
         izz="0.00017759" />
     </inertial>
     <visual>
@@ -26,7 +26,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_1.stl" />
+          stlfilename="package://snake_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -40,7 +40,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_1.stl" />
+          stlfilename="package://snake_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
@@ -51,14 +51,14 @@
         xyz="-0.05 0 0"
         rpy="0 0 0" />
       <mass
-        value="0.141502212856218" />
+        value="0.1415" />
       <inertia
-        ixx="2.94169063927569E-05"
-        ixy="-7.92108154580779E-21"
-        ixz="8.27180612553027E-23"
-        iyy="0.000177066188533302"
-        iyz="-1.19534228122209E-39"
-        izz="0.000177593059801247" />
+        ixx="2.9417E-05"
+        ixy="-7.9211E-21"
+        ixz="8.2718E-23"
+        iyy="0.00017707"
+        iyz="-8.2007E-40"
+        izz="0.00017759" />
     </inertial>
     <visual>
       <origin
@@ -66,12 +66,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_2.stl" />
+          stlfilename="package://snake_description/meshes/link_2.stl" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -80,7 +80,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_2.stl" />
+          stlfilename="package://snake_description/meshes/link_2.stl" />
       </geometry>
     </collision>
   </link>
@@ -88,7 +88,7 @@
     name="joint_12"
     type="revolute">
     <origin
-      xyz="0 0 0"
+      xyz="-0.1 0 0"
       rpy="0 0 0" />
     <parent
       link="link_1" />
@@ -113,9 +113,9 @@
       <inertia
         ixx="2.94169063927569E-05"
         ixy="-7.95196295534311E-21"
-        ixz="8.27180612553032E-23"
+        ixz="8.27180612553033E-23"
         iyy="0.000177066188533302"
-        iyz="1.76579782891935E-40"
+        iyz="7.50551633879373E-40"
         izz="0.000177593059801247" />
     </inertial>
     <visual>
@@ -124,7 +124,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_3.stl" />
+          stlfilename="package://snake_description/meshes/link_3.stl" />
       </geometry>
       <material
         name="">
@@ -138,7 +138,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_3.stl" />
+          stlfilename="package://snake_description/meshes/link_3.stl" />
       </geometry>
     </collision>
   </link>
@@ -168,7 +168,7 @@
         ixy="-9.73699341212324E-21"
         ixz="4.03553848177537E-21"
         iyy="0.000177066188533302"
-        iyz="3.89736768453638E-38"
+        iyz="4.00160040879238E-38"
         izz="0.000177593059801247" />
     </inertial>
     <visual>
@@ -177,7 +177,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_4.stl" />
+          stlfilename="package://snake_description/meshes/link_4.stl" />
       </geometry>
       <material
         name="">
@@ -191,7 +191,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_4.stl" />
+          stlfilename="package://snake_description/meshes/link_4.stl" />
       </geometry>
     </collision>
   </link>
@@ -221,7 +221,7 @@
         ixy="-9.61346777398199E-21"
         ixz="4.03553848177537E-21"
         iyy="0.000177066188533302"
-        iyz="-6.9696801988823E-38"
+        iyz="4.00160040879238E-38"
         izz="0.000177593059801247" />
     </inertial>
     <visual>
@@ -230,7 +230,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_5.stl" />
+          stlfilename="package://snake_description/meshes/link_5.stl" />
       </geometry>
       <material
         name="">
@@ -244,7 +244,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_5.stl" />
+          stlfilename="package://snake_description/meshes/link_5.stl" />
       </geometry>
     </collision>
   </link>
@@ -274,7 +274,7 @@
         ixy="-1.03546216028295E-20"
         ixz="3.87010235926477E-21"
         iyy="0.000177066188533302"
-        iyz="3.96407282709841E-38"
+        iyz="4.00160040879238E-38"
         izz="0.000177593059801247" />
     </inertial>
     <visual>
@@ -283,7 +283,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_6.stl" />
+          stlfilename="package://snake_description/meshes/link_6.stl" />
       </geometry>
       <material
         name="">
@@ -297,7 +297,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_6.stl" />
+          stlfilename="package://snake_description/meshes/link_6.stl" />
       </geometry>
     </collision>
   </link>
@@ -327,7 +327,7 @@
         ixy="-1.03546216028295E-20"
         ixz="7.98835890229543E-21"
         iyy="0.000177066188533302"
-        iyz="3.34357400000952E-36"
+        iyz="3.34609386577561E-36"
         izz="0.000177593059801247" />
     </inertial>
     <visual>
@@ -336,7 +336,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_7.stl" />
+          stlfilename="package://snake_description/meshes/link_7.stl" />
       </geometry>
       <material
         name="">
@@ -350,7 +350,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_7.stl" />
+          stlfilename="package://snake_description/meshes/link_7.stl" />
       </geometry>
     </collision>
   </link>
@@ -380,7 +380,7 @@
         ixy="-1.03546216028295E-20"
         ixz="7.98835890229543E-21"
         iyy="0.000177066188533302"
-        iyz="3.34412783748947E-36"
+        iyz="3.34609386577561E-36"
         izz="0.000177593059801247" />
     </inertial>
     <visual>
@@ -389,7 +389,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_8.stl" />
+          stlfilename="package://snake_description/meshes/link_8.stl" />
       </geometry>
       <material
         name="">
@@ -403,7 +403,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_8.stl" />
+          stlfilename="package://snake_description/meshes/link_8.stl" />
       </geometry>
     </collision>
   </link>
@@ -424,16 +424,16 @@
     name="link_9">
     <inertial>
       <origin
-        xyz="-0.15 0 0"
+        xyz="-0.0499999999999999 0 0"
         rpy="0 0 0" />
       <mass
         value="0.141502212856218" />
       <inertia
         ixx="2.94169063927569E-05"
         ixy="-1.03546216028295E-20"
-        ixz="3.95282042052008E-21"
+        ixz="3.95282042052007E-21"
         iyy="0.000177066188533302"
-        iyz="-3.13160740712584E-36"
+        iyz="-3.26606185759976E-36"
         izz="0.000177593059801247" />
     </inertial>
     <visual>
@@ -442,7 +442,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_9.stl" />
+          stlfilename="package://snake_description/meshes/link_9.stl" />
       </geometry>
       <material
         name="">
@@ -456,7 +456,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_9.stl" />
+          stlfilename="package://snake_description/meshes/link_9.stl" />
       </geometry>
     </collision>
   </link>
@@ -464,7 +464,7 @@
     name="joint_89"
     type="continuous">
     <origin
-      xyz="0 0 0"
+      xyz="-0.1 0 0"
       rpy="0 0 0" />
     <parent
       link="link_8" />
@@ -486,7 +486,7 @@
         ixy="-1.03546216028295E-20"
         ixz="7.98835890229543E-21"
         iyy="0.000177066188533302"
-        iyz="3.34571858995867E-36"
+        iyz="3.34609386577561E-36"
         izz="0.000177593059801247" />
     </inertial>
     <visual>
@@ -495,7 +495,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_10.stl" />
+          stlfilename="package://snake_description/meshes/link_10.stl" />
       </geometry>
       <material
         name="">
@@ -509,7 +509,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://snake_description/meshes/link_10.stl" />
+          stlfilename="package://snake_description/meshes/link_10.stl" />
       </geometry>
     </collision>
   </link>
@@ -517,7 +517,7 @@
     name="joint_910"
     type="continuous">
     <origin
-      xyz="-0.2 0 0"
+      xyz="-0.1 0 0"
       rpy="0 0 0" />
     <parent
       link="link_9" />
