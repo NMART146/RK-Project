@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<robot name="Assem1">
+<robot name="Snake">
 
   <gazebo>
     <plugin filename="ign_gazebo-physics-system" name="ignition::gazebo::systems::Physics">
@@ -21,14 +21,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+        <mesh filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
       <material name="blue" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+        <mesh filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
@@ -43,14 +43,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_2.stl" />
+        <mesh filename="package://snake_description/meshes/link_2.stl" />
       </geometry>
       <material name="blue" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_2.stl" />
+        <mesh filename="package://snake_description/meshes/link_2.stl" />
       </geometry>
     </collision>
   </link>
@@ -75,14 +75,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_3.stl" />
+        <mesh filename="package://snake_description/meshes/link_3.stl" />
       </geometry>
       <material name="blue" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_3.stl" />
+        <mesh filename="package://snake_description/meshes/link_3.stl" />
       </geometry>
     </collision>
   </link>
@@ -107,14 +107,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_4.stl" />
+        <mesh filename="package://snake_description/meshes/link_4.stl" />
       </geometry>
       <material name="blue" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_4.stl" />
+        <mesh filename="package://snake_description/meshes/link_4.stl" />
       </geometry>
     </collision>
   </link>
@@ -139,14 +139,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_5.stl" />
+        <mesh filename="package://snake_description/meshes/link_5.stl" />
       </geometry>
       <material name="blue" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_5.stl" />
+        <mesh filename="package://snake_description/meshes/link_5.stl" />
       </geometry>
     </collision>
   </link>
@@ -171,14 +171,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_6.stl" />
+        <mesh filename="package://snake_description/meshes/link_6.stl" />
       </geometry>
       <material name="blue" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_6.stl" />
+        <mesh filename="package://snake_description/meshes/link_6.stl" />
       </geometry>
     </collision>
   </link>
@@ -203,14 +203,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_7.stl" />
+        <mesh filename="package://snake_description/meshes/link_7.stl" />
       </geometry>
       <material name="blue" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_7.stl" />
+        <mesh filename="package://snake_description/meshes/link_7.stl" />
       </geometry>
     </collision>
   </link>
@@ -235,14 +235,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_8.stl" />
+        <mesh filename="package://snake_description/meshes/link_8.stl" />
       </geometry>
       <material name="blue" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_8.stl" />
+        <mesh filename="package://snake_description/meshes/link_8.stl" />
       </geometry>
     </collision>
   </link>
@@ -267,14 +267,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_9.stl" />
+        <mesh filename="package://snake_description/meshes/link_9.stl" />
       </geometry>
       <material name="blue" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_9.stl" />
+        <mesh filename="package://snake_description/meshes/link_9.stl" />
       </geometry>
     </collision>
   </link>
@@ -299,14 +299,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_10.stl" />
+        <mesh filename="package://snake_description/meshes/link_10.stl" />
       </geometry>
       <material name="blue" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="1.6 0 0" />
       <geometry>
-        <mesh filename="file:///root/project/rkproj/src/assem1_description/meshes/link_10.stl" />
+        <mesh filename="package://snake_description/meshes/link_10.stl" />
       </geometry>
     </collision>
   </link>

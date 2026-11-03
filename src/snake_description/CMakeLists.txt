@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.8)
-project(assem1_description)
+project(snake_description)
 
 find_package(ament_cmake REQUIRED)
 
 install(
-  DIRECTORY meshes urdf
+  DIRECTORY meshes urdf launch
   DESTINATION share/${PROJECT_NAME}
 )
 
