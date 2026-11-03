@@ -3,30 +3,30 @@
      Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot
-  name="proto_assem">
+  name="Assem1">
   <link
     name="link_1">
     <inertial>
       <origin
-        xyz="-0.05 -1.89319645188653E-21 7.41703426414765E-19"
+        xyz="-0.05 -1.68582088385652E-20 7.41703426414765E-19"
         rpy="0 0 0" />
       <mass
         value="0.141502212856218" />
       <inertia
         ixx="2.94169063927569E-05"
         ixy="-7.92108154580779E-21"
-        ixz="8.27180612553027E-23"
+        ixz="8.27180612553024E-23"
         iyy="0.000177066188533302"
-        iyz="7.50551633879373E-40"
+        iyz="1.14794370197489E-39"
         izz="0.000177593059801247" />
     </inertial>
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_1.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -40,7 +40,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_1.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
@@ -48,25 +48,25 @@
     name="link_2">
     <inertial>
       <origin
-        xyz="-0.05 0 7.41703426414765E-19"
+        xyz="-2.77555756156289E-17 -4.72170617794044E-21 7.56668438801443E-19"
         rpy="0 0 0" />
       <mass
-        value="0.141502212856218" />
+        value="0.283004425712436" />
       <inertia
-        ixx="2.94169063927569E-05"
-        ixy="-7.95196295534311E-21"
-        ixz="8.27180612553033E-23"
-        iyy="0.000177066188533302"
-        iyz="7.50551633879373E-40"
-        izz="0.000177593059801247" />
+        ixx="5.88338127855139E-05"
+        ixy="-1.58730445011509E-20"
+        ixz="1.65436122510606E-22"
+        iyy="0.000354132377066603"
+        iyz="-1.01876249833016E-39"
+        izz="0.000355186119602495" />
     </inertial>
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_2.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -80,7 +80,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_2.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
@@ -106,25 +106,25 @@
     name="link_3">
     <inertial>
       <origin
-        xyz="-0.05 3.70338916763195E-19 7.41703426414765E-19"
+        xyz="-2.77555756156289E-17 1.83276261929711E-19 7.41703426414765E-19"
         rpy="0 0 0" />
       <mass
-        value="0.141502212856218" />
+        value="0.283004425712436" />
       <inertia
-        ixx="2.94169063927569E-05"
-        ixy="-9.73699341212324E-21"
-        ixz="4.03553848177537E-21"
-        iyy="0.000177066188533302"
-        iyz="4.00160040879238E-38"
-        izz="0.000177593059801247" />
+        ixx="5.88338127855139E-05"
+        ixy="-1.76889563674663E-20"
+        ixz="4.11825654303067E-21"
+        iyy="0.000354132377066603"
+        iyz="-6.85488582868481E-38"
+        izz="0.000355186119602495" />
     </inertial>
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_3.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -138,7 +138,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_3.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
@@ -159,25 +159,25 @@
     name="link_4">
     <inertial>
       <origin
-        xyz="-0.05 3.70338916763195E-19 7.41703426414765E-19"
+        xyz="-5.55111512312578E-17 3.70338916763195E-19 7.41703426414765E-19"
         rpy="0 0 0" />
       <mass
-        value="0.141502212856218" />
+        value="0.283004425712436" />
       <inertia
-        ixx="2.94169063927569E-05"
-        ixy="-1.03546216028295E-20"
-        ixz="3.87010235926477E-21"
-        iyy="0.000177066188533302"
-        iyz="4.00160040879238E-38"
-        izz="0.000177593059801247" />
+        ixx="5.88338127855139E-05"
+        ixy="-2.00916150149527E-20"
+        ixz="7.90564084104014E-21"
+        iyy="0.000354132377066603"
+        iyz="1.06642767400909E-37"
+        izz="0.000355186119602495" />
     </inertial>
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_4.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -191,7 +191,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_4.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
@@ -212,25 +212,25 @@
     name="link_5">
     <inertial>
       <origin
-        xyz="-0.0499999999999999 3.55373904376517E-19 7.41703426414765E-19"
+        xyz="0 3.72232113215082E-19 7.41703426414765E-19"
         rpy="0 0 0" />
       <mass
-        value="0.141502212856218" />
+        value="0.283004425712436" />
       <inertia
-        ixx="2.94169063927569E-05"
-        ixy="-1.03546216028295E-20"
-        ixz="3.87010235926477E-21"
-        iyy="0.000177066188533302"
-        iyz="4.00160040879238E-38"
-        izz="0.000177593059801247" />
+        ixx="5.88338127855139E-05"
+        ixy="-2.0709243205659E-20"
+        ixz="7.74020471852953E-21"
+        iyy="0.000354132377066603"
+        iyz="-3.14639662145934E-38"
+        izz="0.000355186119602495" />
     </inertial>
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_5.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -244,7 +244,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_5.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
@@ -265,25 +265,25 @@
     name="link_6">
     <inertial>
       <origin
-        xyz="-0.0499999999999999 3.72232113215082E-19 7.41703426414765E-19"
+        xyz="5.55111512312578E-17 3.57267100828403E-19 7.49185932608104E-19"
         rpy="0 0 0" />
       <mass
-        value="0.141502212856218" />
+        value="0.283004425712436" />
       <inertia
-        ixx="2.94169063927569E-05"
-        ixy="-1.03546216028295E-20"
-        ixz="3.95282042052007E-21"
-        iyy="0.000177066188533302"
-        iyz="-3.26606185759976E-36"
-        izz="0.000177593059801247" />
+        ixx="5.88338127855139E-05"
+        ixy="-2.0709243205659E-20"
+        ixz="7.82292277978484E-21"
+        iyy="0.000354132377066603"
+        iyz="-3.22604585351184E-36"
+        izz="0.000355186119602495" />
     </inertial>
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_6.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -297,7 +297,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_6.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
@@ -318,25 +318,25 @@
     name="link_7">
     <inertial>
       <origin
-        xyz="-0.05 3.70338916763195E-19 7.41703426414765E-19"
+        xyz="0 3.63803008795799E-19 7.49185932608104E-19"
         rpy="0 0 0" />
       <mass
-        value="0.141502212856218" />
+        value="0.283004425712436" />
       <inertia
-        ixx="2.94169063927569E-05"
-        ixy="-1.03546216028295E-20"
-        ixz="7.98835890229543E-21"
-        iyy="0.000177066188533302"
-        iyz="3.34609386577561E-36"
-        izz="0.000177593059801247" />
+        ixx="5.88338127855139E-05"
+        ixy="-2.0709243205659E-20"
+        ixz="1.19411793228155E-20"
+        iyy="0.000354132377066603"
+        iyz="7.92814565419689E-38"
+        izz="0.000355186119602495" />
     </inertial>
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_7.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -350,7 +350,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_7.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
@@ -371,25 +371,25 @@
     name="link_8">
     <inertial>
       <origin
-        xyz="-0.05 3.74125309666968E-19 7.56668438801444E-19"
+        xyz="-1.11022302462516E-16 3.63803008795799E-19 7.49185932608104E-19"
         rpy="0 0 0" />
       <mass
-        value="0.141502212856218" />
+        value="0.283004425712436" />
       <inertia
-        ixx="2.94169063927569E-05"
-        ixy="-1.03546216028295E-20"
-        ixz="3.95282042052007E-21"
-        iyy="0.000177066188533302"
-        iyz="-3.26606185759976E-36"
-        izz="0.000177593059801247" />
+        ixx="5.88338127855139E-05"
+        ixy="-2.0709243205659E-20"
+        ixz="1.19411793228155E-20"
+        iyy="0.000354132377066603"
+        iyz="-2.94821018668511E-38"
+        izz="0.000355186119602495" />
     </inertial>
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_8.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -403,7 +403,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_8.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
@@ -424,25 +424,25 @@
     name="link_9">
     <inertial>
       <origin
-        xyz="-0.0500000000000002 3.72232113215082E-19 7.41703426414765E-19"
+        xyz="-1.11022302462516E-16 3.63803008795799E-19 7.41703426414765E-19"
         rpy="0 0 0" />
       <mass
-        value="0.141502212856218" />
+        value="0.283004425712436" />
       <inertia
-        ixx="2.94169063927569E-05"
-        ixy="-1.03546216028295E-20"
-        ixz="7.98835890229543E-21"
-        iyy="0.000177066188533302"
-        iyz="3.23638105969886E-36"
-        izz="0.000177593059801247" />
+        ixx="5.88338127855139E-05"
+        ixy="-2.0709243205659E-20"
+        ixz="1.19411793228155E-20"
+        iyy="0.000354132377066603"
+        iyz="-2.96884117519125E-37"
+        izz="0.000355186119602495" />
     </inertial>
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_9.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -456,7 +456,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_9.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
@@ -477,25 +477,25 @@
     name="link_10">
     <inertial>
       <origin
-        xyz="-0.0499999999999998 3.70338916763195E-19 7.56668438801443E-19"
+        xyz="0 3.72232113215082E-19 7.49185932608104E-19"
         rpy="0 0 0" />
       <mass
-        value="0.141502212856218" />
+        value="0.283004425712436" />
       <inertia
-        ixx="2.94169063927569E-05"
-        ixy="-1.03546216028295E-20"
-        ixz="7.98835890229543E-21"
-        iyy="0.000177066188533302"
-        iyz="3.34609386577561E-36"
-        izz="0.000177593059801247" />
+        ixx="5.88338127855139E-05"
+        ixy="-2.0709243205659E-20"
+        ixz="1.59767178045909E-20"
+        iyy="0.000354132377066603"
+        iyz="6.58325914863484E-36"
+        izz="0.000355186119602495" />
     </inertial>
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_10.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -509,7 +509,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://proto_assem/meshes/link_10.STL" />
+          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
