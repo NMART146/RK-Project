@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:macro name="connect_joint" params="prefix">
+        <joint name="${prefix}">
+            <!-- Add in each snake link joint as a macro -->
+            <command_interface name="position"/>
+            <state_interface name="position"/>
+        </joint>
+    </xacro:macro>
+
+    <xacro:macro name="snake_ros2_control" params="gazebo">
+        <ros2_control name="snakebot" type="system">
+
+            <hardware>
+                <xacro:if value="${gazebo}">
+                    <gazebo>
+                        <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+                            <parameters>$(find snake_description)/config/snake_controllers.yaml</parameters>
+                        </plugin>
+                    </gazebo>
+                </xacro:if>
+                <xacro:unless value="${gazebo}">
+                    <plugin>mock_components/GenericSystem</plugin>
+                    <param name="calculate_dynamics">true</param>
+                </xacro:unless>
+            </hardware>
+
+            
+            <xacro:connect_joint prefix="joint_12"/>
+            <xacro:connect_joint prefix="joint_23"/>
+            <xacro:connect_joint prefix="joint_34"/>
+            <xacro:connect_joint prefix="joint_45"/>
+            <xacro:connect_joint prefix="joint_56"/>
+            <xacro:connect_joint prefix="joint_67"/>
+            <xacro:connect_joint prefix="joint_78"/>
+            <xacro:connect_joint prefix="joint_89"/>
+            <xacro:connect_joint prefix="joint_910"/>
+
+        </ros2_control>
+
+        <!-- Gazebo system plugin: starts the controller manager inside the simulation -->
+        <xacro:if value="${gazebo}">
+            <gazebo>
+                <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+                    <parameters>$(find snake_description)/config/snake_controllers.yaml</parameters>
+                </plugin>
+            </gazebo>
+        </xacro:if>
+    </xacro:macro>
+
+</robot>

@@ -2,8 +2,8 @@
 <!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
      Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
-<robot
-  name="Assem1">
+
+<robot>
   <link
     name="link_1">
     <inertial>
@@ -26,7 +26,7 @@
         rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -40,7 +40,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
@@ -66,7 +66,7 @@
         rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -80,7 +80,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
@@ -97,10 +97,10 @@
     <axis
       xyz="0 0 1" />
     <limit
-      lower="-3.14"
-      upper="3.14"
-      effort="0"
-      velocity="0" />
+      lower="${-pi/2}"
+      upper="${pi/2}"
+      effort="3"
+      velocity="6" />
   </joint>
   <link
     name="link_3">
@@ -124,7 +124,7 @@
         rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -138,13 +138,13 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
   <joint
     name="joint_23"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="-0.1 0 0"
       rpy="0 0 0" />
@@ -154,6 +154,11 @@
       link="link_3" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="${-pi/2}"
+      upper="${pi/2}"
+      effort="3"
+      velocity="6" />
   </joint>
   <link
     name="link_4">
@@ -177,7 +182,7 @@
         rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -191,13 +196,13 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
   <joint
     name="joint_34"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="-0.1 0 0"
       rpy="0 0 0" />
@@ -207,6 +212,11 @@
       link="link_4" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="${-pi/2}"
+      upper="${pi/2}"
+      effort="3"
+      velocity="6" />
   </joint>
   <link
     name="link_5">
@@ -230,7 +240,7 @@
         rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -244,13 +254,13 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
   <joint
     name="joint_45"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="-0.1 0 0"
       rpy="0 0 0" />
@@ -260,6 +270,11 @@
       link="link_5" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="${-pi/2}"
+      upper="${pi/2}"
+      effort="3"
+      velocity="6" />
   </joint>
   <link
     name="link_6">
@@ -283,7 +298,7 @@
         rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -297,13 +312,13 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
   <joint
     name="joint_56"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="-0.1 0 0"
       rpy="0 0 0" />
@@ -313,6 +328,11 @@
       link="link_6" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="${-pi/2}"
+      upper="${pi/2}"
+      effort="3"
+      velocity="6" />
   </joint>
   <link
     name="link_7">
@@ -336,7 +356,7 @@
         rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -350,13 +370,13 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
   <joint
     name="joint_67"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="-0.1 0 0"
       rpy="0 0 0" />
@@ -366,6 +386,11 @@
       link="link_7" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="${-pi/2}"
+      upper="${pi/2}"
+      effort="3"
+      velocity="6" />
   </joint>
   <link
     name="link_8">
@@ -389,7 +414,7 @@
         rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -403,13 +428,13 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
   <joint
     name="joint_78"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="-0.1 0 0"
       rpy="0 0 0" />
@@ -419,6 +444,11 @@
       link="link_8" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="${-pi/2}"
+      upper="${pi/2}"
+      effort="3"
+      velocity="6" />
   </joint>
   <link
     name="link_9">
@@ -442,7 +472,7 @@
         rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -456,13 +486,13 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
   <joint
     name="joint_89"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="-0.1 0 0"
       rpy="0 0 0" />
@@ -472,6 +502,11 @@
       link="link_9" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="${-pi/2}"
+      upper="${pi/2}"
+      effort="3"
+      velocity="6" />
   </joint>
   <link
     name="link_10">
@@ -495,7 +530,7 @@
         rpy="1.6 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
       <material
         name="">
@@ -509,13 +544,13 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///root/project/rkproj/src/assem1_description/meshes/link_1.stl" />
+          filename="package://snake_description/meshes/link_1.stl" />
       </geometry>
     </collision>
   </link>
   <joint
     name="joint_910"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="-0.0999999999999999 0 0"
       rpy="0 0 0" />
@@ -525,5 +560,10 @@
       link="link_10" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="${-pi/2}"
+      upper="${pi/2}"
+      effort="3"
+      velocity="6" />
   </joint>
 </robot>
