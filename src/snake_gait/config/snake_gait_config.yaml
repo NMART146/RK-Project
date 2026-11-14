@@ -1,0 +1,9 @@
+snake_gait_publisher:
+  ros__parameters:
+    beta: 0.0
+    a: 0.5
+    omega: 0.69813170079
+    v:   1.57079632679
+    update_rate: 60.0
+    controller_topic: /snake_gait_controller/commands
+    num_joints: 9

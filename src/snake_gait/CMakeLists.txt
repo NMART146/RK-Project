@@ -7,9 +7,26 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
+
+# Serpenoid gait publisher node
+add_executable(snake_gait_node src/snake_gait.cpp)
+target_compile_features(snake_gait_node PUBLIC cxx_std_17)
+target_link_libraries(snake_gait_node
+  rclcpp::rclcpp
+  ${std_msgs_TARGETS}
+)
+
+# Installs to lib/snake_gait so `ros2 run snake_gait snake_gait_node` can find it
+install(TARGETS snake_gait_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+# Install gait parameter files so launch files can find them
+install(DIRECTORY config
+  DESTINATION share/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

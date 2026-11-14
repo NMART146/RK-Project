@@ -1,0 +1,21 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    snake_gait_controller:
+      type: position_controllers/JointGroupPositionController
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+snake_gait_controller:
+  ros__parameters:
+    joints:
+      - joint_12
+      - joint_23
+      - joint_34
+      - joint_45
+      - joint_56
+      - joint_67
+      - joint_78
+      - joint_89
+      - joint_910

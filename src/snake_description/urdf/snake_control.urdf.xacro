@@ -14,11 +14,7 @@
 
             <hardware>
                 <xacro:if value="${gazebo}">
-                    <gazebo>
-                        <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
-                            <parameters>$(find snake_description)/config/snake_controllers.yaml</parameters>
-                        </plugin>
-                    </gazebo>
+                    <plugin>gz_ros2_control/GazeboSimSystem</plugin>
                 </xacro:if>
                 <xacro:unless value="${gazebo}">
                     <plugin>mock_components/GenericSystem</plugin>
@@ -43,7 +39,7 @@
         <xacro:if value="${gazebo}">
             <gazebo>
                 <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
-                    <parameters>$(find snake_description)/config/snake_controllers.yaml</parameters>
+                    <parameters>$(find snake_bringup)/config/snake_controllers.yaml</parameters>
                 </plugin>
             </gazebo>
         </xacro:if>
