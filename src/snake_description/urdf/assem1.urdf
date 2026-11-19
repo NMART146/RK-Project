@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="Assem1" xmlns:ignition="http://gazebosim.org/schema">
+
+  <material name="snake_grey">
+    <color rgba="0.792156862745098 0.8 0.9 1" />
+  </material>
+
+  <!-- link and joint definitions -->
+
+  <link name="link_1">
+    <inertial>
+      <origin xyz="-0.05 0 0" rpy="0 0 0" />
+      <mass value="0.141502212856218" />
+      <inertia
+        ixx="2.94169063927569E-05" ixy="0" ixz="0"
+        iyy="0.000177066188533302" iyz="0"
+        izz="0.000177593059801247" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+      <material name="snake_grey" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_12" type="continuous">
+    <origin xyz="-0.1 0 0" rpy="0 0 0" />
+    <parent link="link_1" />
+    <child link="link_2" />
+    <axis xyz="0 0 1" />
+  </joint>
+
+  <link name="link_2">
+    <inertial>
+      <origin xyz="-0.05 0 0" rpy="0 0 0" />
+      <mass value="0.283004425712436" />
+      <inertia
+        ixx="5.88338127855139E-05" ixy="0" ixz="0"
+        iyy="0.000354132377066603" iyz="0"
+        izz="0.000355186119602495" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+      <material name="snake_grey" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_23" type="continuous">
+    <origin xyz="-0.1 0 0" rpy="0 0 0" />
+    <parent link="link_2" />
+    <child link="link_3" />
+    <axis xyz="0 0 1" />
+  </joint>
+
+  <link name="link_3">
+    <inertial>
+      <origin xyz="-0.05 0 0" rpy="0 0 0" />
+      <mass value="0.283004425712436" />
+      <inertia
+        ixx="5.88338127855139E-05" ixy="0" ixz="0"
+        iyy="0.000354132377066603" iyz="0"
+        izz="0.000355186119602495" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+      <material name="snake_grey" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_34" type="continuous">
+    <origin xyz="-0.1 0 0" rpy="0 0 0" />
+    <parent link="link_3" />
+    <child link="link_4" />
+    <axis xyz="0 0 1" />
+  </joint>
+
+  <link name="link_4">
+    <inertial>
+      <origin xyz="-0.05 0 0" rpy="0 0 0" />
+      <mass value="0.283004425712436" />
+      <inertia
+        ixx="5.88338127855139E-05" ixy="0" ixz="0"
+        iyy="0.000354132377066603" iyz="0"
+        izz="0.000355186119602495" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+      <material name="snake_grey" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_45" type="continuous">
+    <origin xyz="-0.1 0 0" rpy="0 0 0" />
+    <parent link="link_4" />
+    <child link="link_5" />
+    <axis xyz="0 0 1" />
+  </joint>
+
+  <link name="link_5">
+    <inertial>
+      <origin xyz="-0.05 0 0" rpy="0 0 0" />
+      <mass value="0.283004425712436" />
+      <inertia
+        ixx="5.88338127855139E-05" ixy="0" ixz="0"
+        iyy="0.000354132377066603" iyz="0"
+        izz="0.000355186119602495" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+      <material name="snake_grey" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_56" type="continuous">
+    <origin xyz="-0.1 0 0" rpy="0 0 0" />
+    <parent link="link_5" />
+    <child link="link_6" />
+    <axis xyz="0 0 1" />
+  </joint>
+
+  <link name="link_6">
+    <inertial>
+      <origin xyz="-0.05 0 0" rpy="0 0 0" />
+      <mass value="0.283004425712436" />
+      <inertia
+        ixx="5.88338127855139E-05" ixy="0" ixz="0"
+        iyy="0.000354132377066603" iyz="0"
+        izz="0.000355186119602495" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+      <material name="snake_grey" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_67" type="continuous">
+    <origin xyz="-0.1 0 0" rpy="0 0 0" />
+    <parent link="link_6" />
+    <child link="link_7" />
+    <axis xyz="0 0 1" />
+  </joint>
+
+  <link name="link_7">
+    <inertial>
+      <origin xyz="-0.05 0 0" rpy="0 0 0" />
+      <mass value="0.283004425712436" />
+      <inertia
+        ixx="5.88338127855139E-05" ixy="0" ixz="0"
+        iyy="0.000354132377066603" iyz="0"
+        izz="0.000355186119602495" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+      <material name="snake_grey" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_78" type="continuous">
+    <origin xyz="-0.1 0 0" rpy="0 0 0" />
+    <parent link="link_7" />
+    <child link="link_8" />
+    <axis xyz="0 0 1" />
+  </joint>
+
+  <link name="link_8">
+    <inertial>
+      <origin xyz="-0.05 0 0" rpy="0 0 0" />
+      <mass value="0.283004425712436" />
+      <inertia
+        ixx="5.88338127855139E-05" ixy="0" ixz="0"
+        iyy="0.000354132377066603" iyz="0"
+        izz="0.000355186119602495" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+      <material name="snake_grey" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_89" type="continuous">
+    <origin xyz="-0.1 0 0" rpy="0 0 0" />
+    <parent link="link_8" />
+    <child link="link_9" />
+    <axis xyz="0 0 1" />
+  </joint>
+
+  <link name="link_9">
+    <inertial>
+      <origin xyz="-0.05 0 0" rpy="0 0 0" />
+      <mass value="0.283004425712436" />
+      <inertia
+        ixx="5.88338127855139E-05" ixy="0" ixz="0"
+        iyy="0.000354132377066603" iyz="0"
+        izz="0.000355186119602495" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+      <material name="snake_grey" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_910" type="continuous">
+    <origin xyz="-0.1 0 0" rpy="0 0 0" />
+    <parent link="link_9" />
+    <child link="link_10" />
+    <axis xyz="0 0 1" />
+  </joint>
+
+  <link name="link_10">
+    <inertial>
+      <origin xyz="-0.05 0 0" rpy="0 0 0" />
+      <mass value="0.283004425712436" />
+      <inertia
+        ixx="5.88338127855139E-05" ixy="0" ixz="0"
+        iyy="0.000354132377066603" iyz="0"
+        izz="0.000355186119602495" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+      <material name="snake_grey" />
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5707963 0 0" />
+      <geometry>
+        <mesh filename="package://assem1_description/meshes/link_1.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- ==================== GAZEBO CONTROLLERS ==================== -->
+
+  <gazebo>
+    <plugin filename="ignition-gazebo-joint-position-controller-system"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>joint_12</joint_name>
+      <topic>/assem1/joint_12/cmd_pos</topic>
+      <p_gain>50</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>1.0</d_gain>
+    </plugin>
+  </gazebo>
+
+  <gazebo>
+    <plugin filename="ignition-gazebo-joint-position-controller-system"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>joint_23</joint_name>
+      <topic>/assem1/joint_23/cmd_pos</topic>
+      <p_gain>50</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>1.0</d_gain>
+    </plugin>
+  </gazebo>
+
+  <gazebo>
+    <plugin filename="ignition-gazebo-joint-position-controller-system"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>joint_34</joint_name>
+      <topic>/assem1/joint_34/cmd_pos</topic>
+      <p_gain>50</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>1.0</d_gain>
+    </plugin>
+  </gazebo>
+
+  <gazebo>
+    <plugin filename="ignition-gazebo-joint-position-controller-system"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>joint_45</joint_name>
+      <topic>/assem1/joint_45/cmd_pos</topic>
+      <p_gain>50</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>1.0</d_gain>
+    </plugin>
+  </gazebo>
+
+  <gazebo>
+    <plugin filename="ignition-gazebo-joint-position-controller-system"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>joint_56</joint_name>
+      <topic>/assem1/joint_56/cmd_pos</topic>
+      <p_gain>50</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>1.0</d_gain>
+    </plugin>
+  </gazebo>
+
+  <gazebo>
+    <plugin filename="ignition-gazebo-joint-position-controller-system"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>joint_67</joint_name>
+      <topic>/assem1/joint_67/cmd_pos</topic>
+      <p_gain>50</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>1.0</d_gain>
+    </plugin>
+  </gazebo>
+
+  <gazebo>
+    <plugin filename="ignition-gazebo-joint-position-controller-system"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>joint_78</joint_name>
+      <topic>/assem1/joint_78/cmd_pos</topic>
+      <p_gain>50</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>1.0</d_gain>
+    </plugin>
+  </gazebo>
+
+  <gazebo>
+    <plugin filename="ignition-gazebo-joint-position-controller-system"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>joint_89</joint_name>
+      <topic>/assem1/joint_89/cmd_pos</topic>
+      <p_gain>50</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>1.0</d_gain>
+    </plugin>
+  </gazebo>
+
+  <gazebo>
+    <plugin filename="ignition-gazebo-joint-position-controller-system"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>joint_910</joint_name>
+      <topic>/assem1/joint_910/cmd_pos</topic>
+      <p_gain>50</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>1.0</d_gain>
+    </plugin>
+  </gazebo>
+
+  <!-- friction stuff(probably doesnt work idk) -->
+
+  <gazebo reference="link_1">
+    <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.15</mu>
+            <mu2>0.4</mu2>
+            <fdir1 ignition:expressed_in="link_1">1 0 0</fdir1>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <gazebo reference="link_2">
+    <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.15</mu>
+            <mu2>0.4</mu2>
+            <fdir1 ignition:expressed_in="link_2">1 0 0</fdir1>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <gazebo reference="link_3">
+    <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.15</mu>
+            <mu2>0.4</mu2>
+            <fdir1 ignition:expressed_in="link_3">1 0 0</fdir1>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <gazebo reference="link_4">
+    <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.15</mu>
+            <mu2>0.4</mu2>
+            <fdir1 ignition:expressed_in="link_4">1 0 0</fdir1>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <gazebo reference="link_5">
+    <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.15</mu>
+            <mu2>0.4</mu2>
+            <fdir1 ignition:expressed_in="link_5">1 0 0</fdir1>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <gazebo reference="link_6">
+    <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.15</mu>
+            <mu2>0.4</mu2>
+            <fdir1 ignition:expressed_in="link_6">1 0 0</fdir1>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <gazebo reference="link_7">
+    <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.15</mu>
+            <mu2>0.4</mu2>
+            <fdir1 ignition:expressed_in="link_7">1 0 0</fdir1>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <gazebo reference="link_8">
+    <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.15</mu>
+            <mu2>0.4</mu2>
+            <fdir1 ignition:expressed_in="link_8">1 0 0</fdir1>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <gazebo reference="link_9">
+    <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.15</mu>
+            <mu2>0.4</mu2>
+            <fdir1 ignition:expressed_in="link_9">1 0 0</fdir1>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <gazebo reference="link_10">
+    <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.15</mu>
+            <mu2>0.4</mu2>
+            <fdir1 ignition:expressed_in="link_10">1 0 0</fdir1>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+  </gazebo>
+
+</robot>
